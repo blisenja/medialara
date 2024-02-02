@@ -10,12 +10,12 @@
                             <h5><b>{{ Auth::user()->name }}</b></h5>
                             <div class="col-4 d-flex justify-content-end">
                                 <div class="dropdown">
-                                    <i class="bi bi-three-dots-vertical text-danger"></i>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item text-primary" href="{{ route('post.view', ['id' => $post->id]) }}">Update</a></li>
                                         <li><a class="dropdown-item text-danger" href="{{ route('post.delete', ['id' => $post->id]) }}">Delete</a></li>
                                     </ul>
                                     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="bi bi-three-dots-vertical text-danger"></i>
                                     </button>
                                 </div>
                             </div>

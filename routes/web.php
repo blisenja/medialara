@@ -27,5 +27,5 @@ Route::get('/post/create', [PostController::class, 'create'])->name('post.create
 Route::post('/post/store', [PostController::class, 'store'])->name('post.store');
 Route::get('/post/index', [PostController::class, 'index'])->name('post.index');
 Route::get('/post/{id}/delete', [PostController::class, 'delete'])->name('post.delete');
-Route::get('/posts/{id}/view', [PostController::class, 'view'])->name('post.view');
-Route::post('/posts/{id}/update', [PostController::class, 'update'])->name('post.update');
+Route::get('/post/{id}/view', [PostController::class, 'view'])->name('post.view');
+Route::post('/post/{id}/update', [PostController::class, 'update'])->name('post.update');
