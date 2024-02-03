@@ -23,7 +23,7 @@
             <div class="container">
                 <p class="navbar navbar-expand-md navbar-dark shadow-sm d-flex gap-2 text-white">
                     <a href="{{ route('home') }}">
-                        <img src="/uploads/780213226download (2).png" style="width: 40px" alt="">
+                        <img src="/uploads/logo2.png" style="width: 30px" alt="">
                         </img>
                     </a>
                     {{ config('app.name', 'Laravel') }}

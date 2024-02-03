@@ -17,7 +17,7 @@
 
 
                     <h2>Mulai Buat Postinganmu</h2>
-                    <a href="{{ route('post.create') }}" class="btn text-white" style="background-color: #2F4F4F"><i class="bi bi-plus-circle-dotted">Buat Postingan</i></a>
+                    <a href="{{ route('post.create') }}" class="btn text-white" style="background-color: #2F4F4F"><i class="bi bi-plus-circle-dotted"> Buat Postingan</i></a>
                 </div>
             </div><br><br>
             <h3 class="text-center">Statistika</h3><br>
